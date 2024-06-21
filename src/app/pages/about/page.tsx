@@ -52,11 +52,6 @@ const Tools = [
     skill:
       "Redux, ReduxToolkit, Filament, redixUI, shadcn, Embla, Swiper, ContextAPI",
   },
-  {
-    title: "Softs",
-    skill:
-      "Criatividade, Pensamento Crítico, Resiliência e flexibilidade, Comunicação",
-  },
 ];
 
 const softSkill = [
@@ -79,7 +74,7 @@ const softSkill = [
 
 export default function About() {
   return (
-    <main className="bg-back min-h-screen flex flex-col justify-between">
+    <main className="bg-gradient-to-br from-back to-cl01 min-h-screen flex flex-col justify-between">
       <Header />
       <div className="flex flex-col md:flex-row justify-between px-5 sm:px-14 gap-5 lg-py-0 lg-gap-3 flex-1">
         <div className="flex flex-col gap-10 py-8 ">

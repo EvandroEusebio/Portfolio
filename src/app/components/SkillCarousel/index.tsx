@@ -41,20 +41,3 @@ export default function Index() {
     </div>
   );
 }
-
-/*
-<li>Autodidata</li>
-        <li>Programador</li>
-        <li>Curioso</li>
-        <li>Estudante</li>
-        <li>Fullstack</li>
-        <li>Colaborativo</li>
-        <li>Cristão</li>
-        <li>Junior</li>
-        <li>Sempre Aprendendo</li>
-        <li>Criando</li>
-        <li>Recriando</li>
-        <li>Inconformado</li>
-        <li>Ativo</li>
-        <li>Sempre ON</li>
-*/

@@ -5,7 +5,7 @@ import Card from "@/app/components/Card";
 
 export default function Home() {
   return (
-    <main className="bg-back min-h-screen flex flex-col justify-between">
+    <main className="bg-gradient-to-br from-back to-cl01 min-h-screen flex flex-col justify-between">
       <Header />
       <div className="flex flex-col lg:flex-row justify-between items-center px-5 sm:px-14 gap-5 py-20 lg-py-0 lg-gap-3">
         <div className=" flex flex-col gap-3 text-center a1:text-justify">
