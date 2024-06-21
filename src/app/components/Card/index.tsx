@@ -76,7 +76,7 @@ export default function Index() {
       <div className="embla__viewport relative" ref={emblaRef}>
           <div className="embla__container relative">
             {projects.map((item, index) => (
-              <a href={item.link} className="embla__slide relative" target="_blank">
+              <a href={item.link} className="embla__slide relative" key={index} target="_blank">
                 <Card className="min-w-full sm:w-[540px] bg-back border-border01 relative">
                   <CardHeader>
                     <div className="flex  items-center justify-between">

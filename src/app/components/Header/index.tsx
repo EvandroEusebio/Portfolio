@@ -42,7 +42,7 @@ export default function Index() {
         <nav className="hidden a1:block">
           <ul className="flex items-center text-[16px] ">
             {menu.map((item, index) => (
-              <Link href={item.link}>
+              <Link href={item.link} key={index}>
                 <li className="px-6 py-4 border-l-[1px] border-r-[1px] h-full border-border01 hover:bg-border01/90 hover:text-text02">
                   {item.name}
                 </li>
@@ -67,7 +67,7 @@ export default function Index() {
         <nav className="block a1:hidden">
           <ul className="items-center text-[16px] border-b border-border01">
             {menu.map((item, index) => (
-              <Link href={item.link}>
+              <Link href={item.link} key={index}>
                 <li className="px-6 py-4 border-l-[1px] border-r-[1px] h-full border-border01 hover:bg-border01/90 hover:text-text02 text-center">
                   {item.name}
                 </li>
