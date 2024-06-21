@@ -17,6 +17,20 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 1024px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+
+      'a1': '930px' 
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -56,7 +70,9 @@ const config = {
         border01: "rgb(31, 40, 54)",
         text01: "#5d7084",
         text02: "rgb(232, 180, 79)",
-        text03: "rgb(127, 202, 255)"
+        text03: "rgb(127, 202, 255)",
+        cl01: "rgb(17, 24, 32)"
+        
 
 
       },

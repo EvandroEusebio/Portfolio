@@ -44,12 +44,15 @@ export default function Index() {
           ))}
         </ul>
       </nav>
-      <Link href="/">
-        <Avatar>
-          <AvatarImage src="https://avatars.githubusercontent.com/u/110671231?v=4" />
-          <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
-      </Link>
+      <div>
+        
+        <Link href="/">
+          <Avatar>
+            <AvatarImage src="https://avatars.githubusercontent.com/u/110671231?v=4" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
+        </Link>
+      </div>
     </div>
   );
 }
