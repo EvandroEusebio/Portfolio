@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-import { ChevronRightIcon, HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
@@ -14,7 +14,7 @@ const menu = [
     name: "_ola",
   },
   {
-    link: "/",
+    link: "/pages/about",
     name: "_sobre",
   },
   {
@@ -52,7 +52,11 @@ export default function Index() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Button size="icon" className="flex a1:hidden" onClick={() => setShowMenu(!showMenu)}>
+          <Button
+            size="icon"
+            className="flex a1:hidden"
+            onClick={() => setShowMenu(!showMenu)}
+          >
             <HamburgerMenuIcon className="h-5 w-5" />
           </Button>
           <Link href="/">
