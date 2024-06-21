@@ -31,7 +31,7 @@ export default function Index() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div>
-      <div className="flex px-14 gap-3  justify-between items-center border-b-[1px] border-border01 relative ">
+      <div className="flex px-5 sm:px-14 gap-3  justify-between items-center border-b-[1px] border-border01 relative ">
         <div className="py-3">
           <Link href={"/"}>
             <h1 className="text-text01 font-medium text-[20px]">
