@@ -29,7 +29,7 @@ const config = {
 
       '2xl': '1536px',
 
-      'a1': '930px' 
+      'a1': '870px' 
     },
     extend: {
       colors: {

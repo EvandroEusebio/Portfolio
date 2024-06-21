@@ -70,14 +70,14 @@ export default function Index() {
       console.log(emblaApi.slideNodes()); // Access API
     }
   }, [emblaApi]);*/
-  
+
   return (
-    <div className="embla" >
-      <div className="embla__viewport" ref={emblaRef}>
-          <div className="embla__container">
+    <div className="embla  min-w-full sm:w-[540px] relative" >
+      <div className="embla__viewport relative" ref={emblaRef}>
+          <div className="embla__container relative">
             {projects.map((item, index) => (
-              <a href={item.link} className="embla__slide" target="_blank">
-                <Card className="w-[540px] bg-back border-border01">
+              <a href={item.link} className="embla__slide relative" target="_blank">
+                <Card className="min-w-full sm:w-[540px] bg-back border-border01 relative">
                   <CardHeader>
                     <div className="flex  items-center justify-between">
                       <CardTitle className="text-text02">
@@ -89,11 +89,12 @@ export default function Index() {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative w-full h-[250px] rounded-lg">
+                    <div className="relative w-full sm:h-[250px] h-[150px]  rounded-lg">
                       <Image
                         src={item.image}
                         alt="projecto imagem"
                         fill
+                        
                         className="object-cover rounded-lg"
                       />
                     </div>
