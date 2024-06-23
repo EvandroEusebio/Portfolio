@@ -84,7 +84,7 @@ export default function About() {
       <div className="flex flex-col md:grid md:grid-cols-4 justify-between gap-5 lg-py-0 lg-gap-3 flex-1">
         <div className=" border-t border-border01 md:border-r md:border-border01  flex flex-col gap-10  ">
           <div className="border-b border-border01 py-3 px-14">
-            <h2 className="text-[20px] ">//Meus Projectos</h2>
+            <h2 className="text-[20px]">Meus Projectos</h2>
           </div>
           <div className="flex flex-col gap-10">
             {Tools.map((item, index) => (
