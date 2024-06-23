@@ -8,7 +8,7 @@ const Menu = [
       name: "_sobre",
     },
     {
-      link: "#",
+      link: "/pages/projects",
       name: "_projectos",
     },
     {
