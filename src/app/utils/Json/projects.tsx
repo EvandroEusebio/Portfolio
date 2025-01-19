@@ -6,7 +6,7 @@ const Projects = [
         end: "Jan 2021",
       },
       image: "/p01.png",
-      link: "http://65.109.226.60:3000/",
+      link: "https://lojaonlinepecas.cfaomobilityangola.com/",
     },
     {
       name: "_Site_EAD",
@@ -15,7 +15,16 @@ const Projects = [
         end: "Jan 2021",
       },
       image: "/intelecto.png",
-      link: "/",
+      link: "https://www.linkedin.com/posts/evandro-eus%C3%A9bio-121a5a26a_desenvolvendo-um-site-ead-activity-7132697295682252800--WKP?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      name: "_App_Mobile_De_Imóveis",
+      date: {
+        start: "Jan 2021",
+        end: "Jan 2021",
+      },
+      image: "/mobile.png",
+      link: "https://www.linkedin.com/posts/evandro-eus%C3%A9bio-121a5a26a_venho-por-interm%C3%A9dio-deste-v%C3%ADdeo-mostrar-activity-7188243857111715842-b9sm?utm_source=share&utm_medium=member_desktop",
     },
     {
       name: "_Tic_tac_toe",

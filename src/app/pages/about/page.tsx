@@ -36,7 +36,7 @@ const hardSkill = [
 const Tools = [
   {
     title: "Linguagens & Techs",
-    skill: "JavaScript/Node, Python, HTML, CSS, PhP, Typescript",
+    skill: "JavaScript/Node, Python, HTML, CSS, PhP, Typescript, Mysql",
   },
   {
     title: "Frameworks",
@@ -50,7 +50,7 @@ const Tools = [
   {
     title: "Bibliotecas",
     skill:
-      "Redux, ReduxToolkit, Filament, redixUI, shadcn, Embla, Swiper, ContextAPI",
+      "Redux, ReduxToolkit, Filament, redixUI, shadcn, Embla, Swiper, ContextAPI, Context",
   },
 ];
 

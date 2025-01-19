@@ -20,7 +20,7 @@ export default function Index() {
     <div>
       <div className="flex px-5 sm:px-14 gap-3  justify-between items-center border-b-[1px] border-border01 relative ">
         <div className="py-3">
-          <Link href={"/"}>
+          <Link href={"https://github.com/EvandroEusebio"}>
             <h1 className="text-text01 font-medium text-[20px]">
               Evandro Eusébio
             </h1>
@@ -52,7 +52,7 @@ export default function Index() {
           >
             <HamburgerMenuIcon className="h-5 w-5" />
           </Button>
-          <Link href="/">
+          <Link href="https://github.com/EvandroEusebio">
             <Avatar>
               <AvatarImage src="https://avatars.githubusercontent.com/u/110671231?v=4" />
               <AvatarFallback>CN</AvatarFallback>
